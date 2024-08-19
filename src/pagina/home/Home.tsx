@@ -1,7 +1,10 @@
 import homeLogo from '../../assets/home.png'
-import './Home.css';
-import ListaPostagens from '../../components/Postagens/listaPostagem/ListaPostagem';
+import ListaPostagem from '../../components/Postagens/listaPostagem/ListaPostagem';
 import ModalPostagem from '../../components/Postagens/modalPostagem/ModalPostagem';
+import './Home.css';
+
+
+
 
 function Home() {
     return (
@@ -24,7 +27,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <ListaPostagens />
+        <ListaPostagem />
       </>
     );
 }
